@@ -150,7 +150,7 @@ void ListaPresencialidad()
         }
         aux = aux -> siguiente;
     }
-    fout << endl << "Eran " << num << " en casa" << endl << endl;
+    fout << endl << "Eran " << num << " en casa " << endl << endl;
     fout << endl;
 }
 void LeerArchivo()
