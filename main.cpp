@@ -188,7 +188,7 @@ void LeerArchivo()
             }
         }
     } // Cerramos archivos de texto y binarios
-    catch(...) // Captura todas las excepciones posibles
+    catch(...) // Captura todas las excepciones
     {
         fbin.close();
         fin.close();
