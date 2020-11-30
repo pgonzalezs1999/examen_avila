@@ -17,7 +17,7 @@ municipio *final = NULL;
 ifstream fin("../examen.tsv"); // Declaramos fin como variable de entrada
 ofstream fout("../examen_resultado.txt"); // Declaramos fout como variable de salida
 
-int LeerArchivo()
+void LeerArchivo()
 {
     int numMunicipios = 0;
     municipio *aux = new municipio;
@@ -52,9 +52,8 @@ int LeerArchivo()
     {
         fin.close();
         fout.close();
-        cout << "FIN DE ARCHIVO / Se ha generado el archivo binario de aceptados" << endl;
     }
-    fout << "Pregunta 1: Hay " << numMunicipios << " municipios en Avila" << endl;
+    fout << "Pregunta 1: Hay " << numMunicipios << " municipios en Avila" << endl << endl;
 }
 
 void Mostrar()
